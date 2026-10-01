@@ -3,6 +3,6 @@ def check_number(number):
     print(f"{number} is an even number.")
   else:
     print(f"{number} is an odd number.")
-num = input("Pick a number: ")
+num = int(input("Pick a number: "))
 
-check_number(number)
+check_number(num)
